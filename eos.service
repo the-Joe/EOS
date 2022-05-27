@@ -1,0 +1,13 @@
+[Unit]
+Description=EOS Service
+
+[Service]
+WorkingDirectory=/usr/local/lib/eos/
+Environment=PYTHONUNBUFFERED=1
+EnvironmentFile=/usr/local/etc/eos/eos.env
+ExecStart=/usr/local/lib/eos/venv/bin/python3 /usr/local/lib/eos/eos.py
+
+Restart=on-failure
+
+[Install]
+WantedBy=default.target

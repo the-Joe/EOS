@@ -1,0 +1,49 @@
+{
+    "display_information": {
+        "name": "Sauron"
+    },
+    "features": {
+        "bot_user": {
+            "display_name": "Sauron",
+            "always_online": true
+        },
+        "slash_commands": [
+            {
+                "command": "/sauron",
+                "url": "PUBLIC_AWS_ADDRESS:443/sauron/events",
+                "description": "Help with Sauron",
+                "should_escape": false
+            }
+        ]
+    },
+    "oauth_config": {
+        "scopes": {
+            "bot": [
+                "incoming-webhook",
+                "mpim:read",
+                "chat:write",
+                "groups:read",
+                "im:read",
+                "groups:history",
+                "channels:history",
+                "im:history",
+                "mpim:history",
+                "commands"
+            ]
+        }
+    },
+    "settings": {
+        "event_subscriptions": {
+            "request_url": "PUBLIC_AWS_ADDRESS:443/sauron/events",
+            "bot_events": [
+                "message.channels",
+                "message.groups",
+                "message.im",
+                "message.mpim"
+            ]
+        },
+        "org_deploy_enabled": false,
+        "socket_mode_enabled": false,
+        "token_rotation_enabled": false
+    }
+}
