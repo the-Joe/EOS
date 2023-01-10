@@ -126,3 +126,8 @@ Connect your Statuspage.io Dashboard and other 3rd party webhook-enabled service
 
 #### EOS can discretely intervene or publicly. It's your choice given any situation. Member interactions can be tailored for bi-directinoal webhook action to support escalation, logging, etc.
 ![EOS can discretely intervene or publicly. It's your choice given any situation. Member interactions can be tailored for bi-directinoal webhook action to support escalation, logging, etc.](img7.png)
+
+      
+      
+// (c) 2023 Vetere
+// This code is licensed under MIT license (see license.txt for details)
