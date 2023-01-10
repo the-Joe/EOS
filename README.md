@@ -3,20 +3,20 @@
 
 Connect your Statuspage.io Dashboard and other 3rd party webhook-enabled services to Slack. Automate Slack Channel member interactions. EOS is a Python application built for bi-directional communication between internal systems, SaaS Platforms and Internal users that processes slash commands and written language in Slack as well as WebHooks from external sources. Alerting frequency can be tuned to your businesses needs based on 3rd party service activity status or type.
 
-### Demo Status Page
+##### Demo Status Page
 ![Demo Status Page](img2.png)
 ![](img3.png)
 
-### Slack alerting of statuspage activity
+##### Slack alerting of statuspage activity
 ![Slack alerting of statuspage activity](img4.png)
 
-### Incident / Maintenance Notification
+##### Incident / Maintenance Notification
 ![Incident / Maintenance Notification](img5.png)
 
-### EOS can perform pattern match interactions with channel members. Various applications including Slack etiquette, policy, etc.
+##### EOS can perform pattern match interactions with channel members. Various applications including Slack etiquette, policy, etc.
 ![EOS can perform pattern match interactions with channel members. Various applications including Slack etiquette, policy, etc.](img6.png)
 
-### EOS can discretely intervene or publicly. It's your choice given any situation. Member interactions can be tailored for bi-directinoal webhook action to support escalation, logging, etc.
+##### EOS can discretely intervene or publicly. It's your choice given any situation. Member interactions can be tailored for bi-directinoal webhook action to support escalation, logging, etc.
 ![EOS can discretely intervene or publicly. It's your choice given any situation. Member interactions can be tailored for bi-directinoal webhook action to support escalation, logging, etc.](img7.png)
 
 
